@@ -1,0 +1,13 @@
+.card {
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.card {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+p {
+	font-size: large;
+	font-family: sans-serif;
+	color: rgb(92, 88, 88);
+}
