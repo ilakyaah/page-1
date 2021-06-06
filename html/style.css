@@ -11,3 +11,19 @@ p {
 	font-family: sans-serif;
 	color: rgb(92, 88, 88);
 }
+
+.material-icons {
+	position: relative;
+	top: 5px;
+	left: 5px;
+	margin-right: 10px;
+}
+
+.topnav a:hover {
+	border-bottom: 3px solid blue;
+}
+
+.topnav a.active {
+	border-bottom: 3px solid blue;
+}
+
