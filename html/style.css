@@ -12,18 +12,47 @@ p {
 	color: rgb(92, 88, 88);
 }
 
-.material-icons {
-	position: relative;
-	top: 5px;
-	left: 5px;
-	margin-right: 10px;
-}
-
 .topnav a:hover {
 	border-bottom: 3px solid blue;
 }
 
 .topnav a.active {
 	border-bottom: 3px solid blue;
+}
+
+.btn-icon {
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+	margin-right: 7px;
+}
+
+.flexbox {
+	display: flex;
+}
+
+.left-side {
+	flex: 2;
+	padding: 20px;
+}
+
+article {
+	flex: 1;
+	background-color: white;
+	padding: 10px;
+}
+
+.btn-icon1 {
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+	margin-right: 3px;
+}
+
+@media (max-width: 600px) {
+	.flexbox {
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
 }
 
