@@ -1,8 +1,8 @@
-.card {
+.card-1 {
 	transition: box-shadow 0.3s ease-in-out;
 }
 
-.card {
+.card-1 {
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
 
@@ -54,5 +54,22 @@ article {
 		-webkit-flex-direction: column;
 		flex-direction: column;
 	}
+}
+
+.no-outline:focus {
+	outline: none;
+}
+
+.icon-3 {
+	font-size: 30px;
+	margin-top: 10px;
+	border: 1px solid white;
+	padding: 7px;
+	border-radius: 50%;
+	color: white;
+}
+
+.card-hover:hover {
+	border: 3px solid rgb(126, 126, 204);
 }
 
