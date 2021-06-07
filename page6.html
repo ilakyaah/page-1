@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <title>Admin Screen</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+</head>
+
+
+<body>
+    <div class="container-fluid">
+        <div class="row" style="background-color: black;">
+            <div class="col-lg-12">
+                <nav class="navbar sticky-top navbar-expand-lg navbar" style="float: right;">
+                    <div class="container">
+                        <a class="navbar-brand m-2" href="#">
+                            <span class="material-icons" style="color: white;">settings </span>
+                        </a>
+                        <a class="navbar-brand m-2" href="#">
+                            <span class="material-icons" style="color: white;">power_settings_new</span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <section>
+            <div class="row topnav">
+                <div class="col-lg-12" style="background: whitesmoke;">
+                    <nav class="navbar navbar-expand-sm  justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link fw-normal fs-3 " href="#"
+                                    style="color: black;margin-right:20px;"><img height="30px" width="30px"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFlqa7Kso7R6Tvu9hPCHUqgTSOWhu6C_pdnw&usqp=CAU"
+                                        alt="test"> Test</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fw-normal fs-3" href="#"
+                                    style="color: black;margin-right: 10px;"><img style="border-radius: 50%"
+                                        height="30px" width="30px" src="image/download 2.jpg" alt="question bank">
+                                    Question Bank</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-sm-4 mb-3">
+                        <input type="text" placeholder="&#xF002; Search"
+                            style="font-family: Arial, 'Font Awesome 5 Free';border-left: none;border-right: none;border-top: none;"
+                            class="no-outline">
+                    </div>
+                    <div class="col-sm-8 mb-3" style="text-align: end;">
+                        <div class="d-grid gap-2 d-md-block">
+                            <button class="btn btn-primary " type="button"><span
+                                    class="material-icons btn-icon">add</span>Add
+                                Questions</button>
+                            <button class="btn btn-success" type="button"><span
+                                    class="material-icons btn-icon">cloud_upload</span>Upload Questions </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 mt-3">
+                        <div class="card card-hover" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4 mt-5"><span class="material-icons icon-3"
+                                        style="background-color: rgb(146, 40, 58);">
+                                        edit
+                                    </span>
+                                    <h4 class="card-text text-center" style="color: black;">C</h4>
+                                    <p class="text-center">Uploaded documents : <span style="color: blue;">6</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mt-3">
+                        <div class="card card-hover" style="width: 18rem;">
+                            <div class="card-body">
+                                <div class="dropdown" style="float: right;">
+                                    <!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                    </button> -->
+                                    <span class="material-icons" style="color:black" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        more_horiz
+                                    </span>
+                                    <ul class="dropdown-menu dropdown-content" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Rename</a></li>
+                                        <li><a class="dropdown-item" href="#">Edit</a></li>
+                                        <li><a class="dropdown-item" href="#">Delete</a></li>
+                                    </ul>
+                                </div>
+                                <h5 class="card-title text-center mb-4 mt-5"><span class="material-icons icon-3"
+                                        style="background-color: green;">
+                                        edit
+                                    </span>
+                                    <h4 class="card-text text-center" style="color: black;">C++</h4>
+                                    <p class="text-center">Uploaded documents : <span style="color: blue;">14</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mt-3">
+                        <div class="card card-hover" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4 mt-5"><span class="material-icons icon-3"
+                                        style="background-color: indigo;">
+                                        edit
+                                    </span>
+                                    <h4 class="card-text text-center" style="color: black;">JAVA</h4>
+                                    <p class="text-center">Uploaded documents : <span style="color: blue;">38</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mt-3">
+                        <div class="card card-hover" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title text-center mb-4 mt-5"><span class="material-icons icon-3"
+                                        style="background-color: rgb(240, 240, 18);">
+                                        edit
+                                    </span>
+                                    <h4 class="card-text text-center" style="color: black;">J2E</h4>
+                                    <p class="text-center">Uploaded documents : <span style="color: blue;">53</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+    </section>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+
+</html>
